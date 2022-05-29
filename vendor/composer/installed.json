@@ -1,14 +1,9 @@
 {
-    "_readme": [
-        "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
-        "This file is @generated automatically"
-    ],
-    "content-hash": "52a637a71fac2fa683004e6fc5a055d3",
     "packages": [
         {
             "name": "evenement/evenement",
             "version": "v2.1.0",
+            "version_normalized": "2.1.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/igorw/evenement.git",
@@ -26,12 +21,14 @@
             "require-dev": {
                 "phpunit/phpunit": "^6.0||^5.7||^4.8.35"
             },
+            "time": "2017-07-17T17:39:19+00:00",
             "type": "library",
             "extra": {
                 "branch-alias": {
                     "dev-master": "2.0-dev"
                 }
             },
+            "installation-source": "dist",
             "autoload": {
                 "psr-0": {
                     "Evenement": "src"
@@ -56,11 +53,12 @@
                 "issues": "https://github.com/igorw/evenement/issues",
                 "source": "https://github.com/igorw/evenement/tree/master"
             },
-            "time": "2017-07-17T17:39:19+00:00"
+            "install-path": "../evenement/evenement"
         },
         {
             "name": "guzzlehttp/psr7",
             "version": "1.8.5",
+            "version_normalized": "1.8.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/psr7.git",
@@ -87,12 +85,14 @@
             "suggest": {
                 "laminas/laminas-httphandlerrunner": "Emit PSR-7 responses"
             },
+            "time": "2022-03-20T21:51:18+00:00",
             "type": "library",
             "extra": {
                 "branch-alias": {
                     "dev-master": "1.7-dev"
                 }
             },
+            "installation-source": "dist",
             "autoload": {
                 "files": [
                     "src/functions_include.php"
@@ -166,11 +166,12 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-03-20T21:51:18+00:00"
+            "install-path": "../guzzlehttp/psr7"
         },
         {
             "name": "psr/http-message",
             "version": "1.0.1",
+            "version_normalized": "1.0.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-fig/http-message.git",
@@ -185,12 +186,14 @@
             "require": {
                 "php": ">=5.3.0"
             },
+            "time": "2016-08-06T14:39:51+00:00",
             "type": "library",
             "extra": {
                 "branch-alias": {
                     "dev-master": "1.0.x-dev"
                 }
             },
+            "installation-source": "dist",
             "autoload": {
                 "psr-4": {
                     "Psr\\Http\\Message\\": "src/"
@@ -219,11 +222,12 @@
             "support": {
                 "source": "https://github.com/php-fig/http-message/tree/master"
             },
-            "time": "2016-08-06T14:39:51+00:00"
+            "install-path": "../psr/http-message"
         },
         {
             "name": "ralouphie/getallheaders",
             "version": "3.0.3",
+            "version_normalized": "3.0.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ralouphie/getallheaders.git",
@@ -242,7 +246,9 @@
                 "php-coveralls/php-coveralls": "^2.1",
                 "phpunit/phpunit": "^5 || ^6.5"
             },
+            "time": "2019-03-08T08:55:37+00:00",
             "type": "library",
+            "installation-source": "dist",
             "autoload": {
                 "files": [
                     "src/getallheaders.php"
@@ -263,11 +269,12 @@
                 "issues": "https://github.com/ralouphie/getallheaders/issues",
                 "source": "https://github.com/ralouphie/getallheaders/tree/develop"
             },
-            "time": "2019-03-08T08:55:37+00:00"
+            "install-path": "../ralouphie/getallheaders"
         },
         {
             "name": "react/cache",
             "version": "v0.4.2",
+            "version_normalized": "0.4.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/reactphp/cache.git",
@@ -286,7 +293,9 @@
             "require-dev": {
                 "phpunit/phpunit": "^6.4 || ^5.7 || ^4.8.35"
             },
+            "time": "2017-12-20T16:47:13+00:00",
             "type": "library",
+            "installation-source": "dist",
             "autoload": {
                 "psr-4": {
                     "React\\Cache\\": "src/"
@@ -307,11 +316,12 @@
                 "issues": "https://github.com/reactphp/cache/issues",
                 "source": "https://github.com/reactphp/cache/tree/v0.4.2"
             },
-            "time": "2017-12-20T16:47:13+00:00"
+            "install-path": "../react/cache"
         },
         {
             "name": "react/child-process",
             "version": "v0.4.3",
+            "version_normalized": "0.4.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/reactphp/child-process.git",
@@ -333,7 +343,9 @@
                 "phpunit/phpunit": "^5.0 || ^4.8.10",
                 "sebastian/environment": "~1.0"
             },
+            "time": "2017-03-14T13:23:20+00:00",
             "type": "library",
+            "installation-source": "dist",
             "autoload": {
                 "psr-4": {
                     "React\\ChildProcess\\": "src"
@@ -351,11 +363,12 @@
                 "issues": "https://github.com/reactphp/child-process/issues",
                 "source": "https://github.com/reactphp/child-process/tree/v0.4.3"
             },
-            "time": "2017-03-14T13:23:20+00:00"
+            "install-path": "../react/child-process"
         },
         {
             "name": "react/dns",
             "version": "v0.4.17",
+            "version_normalized": "0.4.17.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/reactphp/dns.git",
@@ -379,7 +392,9 @@
                 "clue/block-react": "^1.2",
                 "phpunit/phpunit": "^7.0 || ^6.4 || ^5.7 || ^4.8.35"
             },
+            "time": "2019-04-01T07:31:55+00:00",
             "type": "library",
+            "installation-source": "dist",
             "autoload": {
                 "psr-4": {
                     "React\\Dns\\": "src"
@@ -400,11 +415,12 @@
                 "issues": "https://github.com/reactphp/dns/issues",
                 "source": "https://github.com/reactphp/dns/tree/v0.4.17"
             },
-            "time": "2019-04-01T07:31:55+00:00"
+            "install-path": "../react/dns"
         },
         {
             "name": "react/event-loop",
             "version": "v0.4.3",
+            "version_normalized": "0.4.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/reactphp/event-loop.git",
@@ -427,7 +443,9 @@
                 "ext-libev": "*",
                 "ext-libevent": ">=0.1.0"
             },
+            "time": "2017-04-27T10:56:23+00:00",
             "type": "library",
+            "installation-source": "dist",
             "autoload": {
                 "psr-4": {
                     "React\\EventLoop\\": "src"
@@ -446,11 +464,12 @@
                 "issues": "https://github.com/reactphp/event-loop/issues",
                 "source": "https://github.com/reactphp/event-loop/tree/0.4"
             },
-            "time": "2017-04-27T10:56:23+00:00"
+            "install-path": "../react/event-loop"
         },
         {
             "name": "react/http",
             "version": "v0.4.4",
+            "version_normalized": "0.4.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/reactphp/http.git",
@@ -472,7 +491,9 @@
             "require-dev": {
                 "phpunit/phpunit": "^4.8.10||^5.0"
             },
+            "time": "2017-02-13T14:12:50+00:00",
             "type": "library",
+            "installation-source": "dist",
             "autoload": {
                 "psr-4": {
                     "React\\Http\\": "src"
@@ -490,11 +511,12 @@
                 "issues": "https://github.com/reactphp/http/issues",
                 "source": "https://github.com/reactphp/http/tree/v0.4.4"
             },
-            "time": "2017-02-13T14:12:50+00:00"
+            "install-path": "../react/http"
         },
         {
             "name": "react/http-client",
             "version": "v0.4.17",
+            "version_normalized": "0.4.17.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/reactphp/http-client.git",
@@ -519,7 +541,9 @@
             "require-dev": {
                 "phpunit/phpunit": "^5.0 || ^4.8.10"
             },
+            "time": "2017-03-20T09:55:48+00:00",
             "type": "library",
+            "installation-source": "dist",
             "autoload": {
                 "psr-4": {
                     "React\\HttpClient\\": "src"
@@ -538,11 +562,12 @@
                 "source": "https://github.com/reactphp/http-client/tree/master"
             },
             "abandoned": "react/http",
-            "time": "2017-03-20T09:55:48+00:00"
+            "install-path": "../react/http-client"
         },
         {
             "name": "react/promise",
             "version": "v2.9.0",
+            "version_normalized": "2.9.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/reactphp/promise.git",
@@ -560,7 +585,9 @@
             "require-dev": {
                 "phpunit/phpunit": "^9.3 || ^5.7 || ^4.8.36"
             },
+            "time": "2022-02-11T10:27:51+00:00",
             "type": "library",
+            "installation-source": "dist",
             "autoload": {
                 "files": [
                     "src/functions_include.php"
@@ -614,11 +641,12 @@
                     "type": "github"
                 }
             ],
-            "time": "2022-02-11T10:27:51+00:00"
+            "install-path": "../react/promise"
         },
         {
             "name": "react/promise-timer",
             "version": "v1.6.0",
+            "version_normalized": "1.6.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/reactphp/promise-timer.git",
@@ -638,7 +666,9 @@
             "require-dev": {
                 "phpunit/phpunit": "^9.0 || ^5.7 || ^4.8.35"
             },
+            "time": "2020-07-10T12:18:06+00:00",
             "type": "library",
+            "installation-source": "dist",
             "autoload": {
                 "files": [
                     "src/functions_include.php"
@@ -671,11 +701,12 @@
                 "issues": "https://github.com/reactphp/promise-timer/issues",
                 "source": "https://github.com/reactphp/promise-timer/tree/v1.6.0"
             },
-            "time": "2020-07-10T12:18:06+00:00"
+            "install-path": "../react/promise-timer"
         },
         {
             "name": "react/react",
             "version": "v0.4.2",
+            "version_normalized": "0.4.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/reactphp/reactphp.git",
@@ -694,10 +725,8 @@
                 "react/dns": "0.4.*",
                 "react/event-loop": "0.4.*",
                 "react/http": "0.4.*",
-                "react/http-client": "0.4.*",
                 "react/promise": "~2.1",
                 "react/socket": "0.4.*",
-                "react/socket-client": "0.4.*",
                 "react/stream": "0.4.*"
             },
             "require-dev": {
@@ -708,12 +737,14 @@
                 "ext-libev": "Allows for use of a more performant event-loop implementation.",
                 "ext-libevent": "Allows for use of a more performant event-loop implementation."
             },
+            "time": "2014-12-11T02:06:55+00:00",
             "type": "library",
             "extra": {
                 "branch-alias": {
                     "dev-master": "0.5-dev"
                 }
             },
+            "installation-source": "dist",
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
@@ -729,57 +760,12 @@
                 "issues": "https://github.com/reactphp/react/issues",
                 "source": "https://github.com/reactphp/reactphp/tree/v0.4.2"
             },
-            "time": "2014-12-11T02:06:55+00:00"
+            "install-path": "../react/react"
         },
         {
             "name": "react/socket",
             "version": "v0.4.6",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/reactphp/socket.git",
-                "reference": "cf074e53c974df52388ebd09710a9018894745d2"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/reactphp/socket/zipball/cf074e53c974df52388ebd09710a9018894745d2",
-                "reference": "cf074e53c974df52388ebd09710a9018894745d2",
-                "shasum": ""
-            },
-            "require": {
-                "evenement/evenement": "~2.0|~1.0",
-                "php": ">=5.3.0",
-                "react/event-loop": "0.4.*|0.3.*",
-                "react/promise": "^2.0 || ^1.1",
-                "react/stream": "^0.4.5"
-            },
-            "require-dev": {
-                "clue/block-react": "^1.1",
-                "phpunit/phpunit": "~4.8",
-                "react/socket-client": "^0.5.1"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "React\\Socket\\": "src"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "description": "Async, streaming plaintext TCP/IP and secure TLS socket server for React PHP",
-            "keywords": [
-                "Socket"
-            ],
-            "support": {
-                "issues": "https://github.com/reactphp/socket/issues",
-                "source": "https://github.com/reactphp/socket/tree/v0.4.6"
-            },
-            "time": "2017-01-26T09:23:38+00:00"
-        },
-        {
-            "name": "react/socket-client",
-            "version": "v0.4.6",
+            "version_normalized": "0.4.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/reactphp/socket-client.git",
@@ -798,12 +784,14 @@
                 "react/promise": "~2.0",
                 "react/stream": "0.4.*"
             },
+            "time": "2016-12-06T10:54:49+00:00",
             "type": "library",
             "extra": {
                 "branch-alias": {
                     "dev-master": "0.4-dev"
                 }
             },
+            "installation-source": "dist",
             "autoload": {
                 "psr-4": {
                     "React\\SocketClient\\": "src"
@@ -822,11 +810,62 @@
                 "source": "https://github.com/reactphp/socket-client/tree/v0.4.6"
             },
             "abandoned": "react/socket",
-            "time": "2016-12-06T10:54:49+00:00"
+            "install-path": "../react/socket"
+        },
+        {
+            "name": "react/socket-client",
+            "version": "v0.4.6",
+            "version_normalized": "0.4.6.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/reactphp/socket-client.git",
+                "reference": "49e730523b73d912e56f7a41f53ed3fc083ae167"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/reactphp/socket-client/zipball/49e730523b73d912e56f7a41f53ed3fc083ae167",
+                "reference": "49e730523b73d912e56f7a41f53ed3fc083ae167",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0",
+                "react/dns": "0.4.*",
+                "react/event-loop": "0.4.*",
+                "react/promise": "~2.0",
+                "react/stream": "0.4.*"
+            },
+            "time": "2016-12-06T10:54:49+00:00",
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.4-dev"
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "React\\SocketClient\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Async connector to open TCP/IP and SSL/TLS based connections.",
+            "keywords": [
+                "Socket"
+            ],
+            "support": {
+                "issues": "https://github.com/reactphp/socket-client/issues",
+                "source": "https://github.com/reactphp/socket-client/tree/v0.4.6"
+            },
+            "abandoned": "react/socket",
+            "install-path": "../react/socket-client"
         },
         {
             "name": "react/stream",
             "version": "v0.4.6",
+            "version_normalized": "0.4.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/reactphp/stream.git",
@@ -851,7 +890,9 @@
                 "react/event-loop": "^0.4",
                 "react/promise": "^2.0"
             },
+            "time": "2017-01-25T14:44:14+00:00",
             "type": "library",
+            "installation-source": "dist",
             "autoload": {
                 "psr-4": {
                     "React\\Stream\\": "src"
@@ -870,11 +911,12 @@
                 "issues": "https://github.com/reactphp/stream/issues",
                 "source": "https://github.com/reactphp/stream/tree/v0.4.6"
             },
-            "time": "2017-01-25T14:44:14+00:00"
+            "install-path": "../react/stream"
         },
         {
             "name": "ringcentral/psr7",
             "version": "1.3.0",
+            "version_normalized": "1.3.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ringcentral/psr7.git",
@@ -896,12 +938,14 @@
             "require-dev": {
                 "phpunit/phpunit": "~4.0"
             },
+            "time": "2018-05-29T20:21:04+00:00",
             "type": "library",
             "extra": {
                 "branch-alias": {
                     "dev-master": "1.0-dev"
                 }
             },
+            "installation-source": "dist",
             "autoload": {
                 "files": [
                     "src/functions_include.php"
@@ -931,16 +975,9 @@
             "support": {
                 "source": "https://github.com/ringcentral/psr7/tree/master"
             },
-            "time": "2018-05-29T20:21:04+00:00"
+            "install-path": "../ringcentral/psr7"
         }
     ],
-    "packages-dev": [],
-    "aliases": [],
-    "minimum-stability": "stable",
-    "stability-flags": [],
-    "prefer-stable": false,
-    "prefer-lowest": false,
-    "platform": [],
-    "platform-dev": [],
-    "plugin-api-version": "2.3.0"
+    "dev": true,
+    "dev-package-names": []
 }
